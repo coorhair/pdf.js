@@ -2330,8 +2330,13 @@ let validateFileURL;
 if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
   const HOSTED_VIEWER_ORIGINS = [
     "null",
-    "http://mozilla.github.io",
-    "https://mozilla.github.io",
+    "http://blog.brainhub.vn",
+    "https://blog.brainhub.vn",
+    "http://so.brainhub.vn",
+    "https://so.brainhub.vn",
+    "http://help.brainhub.vn",
+    "https://help.brainhub.vn",
+    "http://localhost:8888",
   ];
   validateFileURL = function (file) {
     if (file === undefined) {

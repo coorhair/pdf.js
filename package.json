@@ -64,11 +64,14 @@
   },
   "scripts": {
     "postinstall": "cross-env PUPPETEER_PRODUCT=firefox node node_modules/puppeteer/install.js",
-    "test": "gulp npm-test"
+    "test": "gulp npm-test",
+    "prod": "npx gulp dist",
+    "server": "npx gulp server",
+    "clean": "npx gulp clean"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/pdf.js.git"
+    "url": "https://github.com/coorhair/pdf.js.git"
   },
   "license": "Apache-2.0"
 }
