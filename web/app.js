@@ -2332,6 +2332,8 @@ if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
     "null",
     "http://blog.brainhub.vn",
     "https://blog.brainhub.vn",
+    "http://static.brainhub.vn",
+    "https://static.brainhub.vn",
     "http://so.brainhub.vn",
     "https://so.brainhub.vn",
     "http://help.brainhub.vn",
